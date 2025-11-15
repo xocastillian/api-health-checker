@@ -143,7 +143,7 @@ export const AuthPage = () => {
 
 	return (
 		<div className='min-h-screen bg-slate-950 text-white px-4 py-10 flex items-center justify-center'>
-			<div className='space-y-6 w-full max-w-2xl'>
+			<div className='space-y-6 w-full max-w-2xl mx-auto flex flex-col items-center'>
 				<AuthForm
 					activeTab={activeTab}
 					onTabChange={setActiveTab}

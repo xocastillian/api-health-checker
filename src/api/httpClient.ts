@@ -8,6 +8,7 @@ if (!API_BASE_URL) {
 
 export const apiClient = axios.create({
 	baseURL: API_BASE_URL,
+	withCredentials: true,
 	timeout: 15000,
 	headers: {
 		Accept: 'application/json',
